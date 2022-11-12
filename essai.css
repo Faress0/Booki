@@ -1,0 +1,478 @@
+h1, h2, h3, h4 {
+    font-family: "Raleway-Italic-VariableFont_wght.ttf";
+}
+
+nav img {
+    width: 61px;
+    height: 19px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0% 4% 4% 3%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65%;
+}
+
+#bleu, #noir { 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    list-style-type:none;
+    height: 15px;
+}
+
+#bleu {
+    margin-right: 40%;
+}
+
+#bleu span:hover, #noir span:hover {
+    color:#0065FC;
+    cursor: pointer;
+    border-top: solid #0065FC;
+    padding-top: 23px;
+}
+
+/*==========================================================================================================================================================================*/
+
+h1 { 
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #000000;
+    font-weight:700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.lieu1 {
+    margin-top:-3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside h1 {
+    width: 350px;
+    height: 35px;
+}
+
+.lieu p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/*=======================================================================================================================================================================*/
+
+.rechercher {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.marseille {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    margin-top: 1.5%;
+}
+
+.carrer_gris {
+    width: 50px;
+    height: 49px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+.rectangle2 {
+    position: relative;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+}
+
+button {
+    height: 49px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.rechercherBleu {
+    position: relative;
+    height: 49px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 15%;
+}
+
+h3  {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.fa-location-dot {
+    margin: 30% 40%;
+}
+
+/*=========================================================================================================================================================================*/
+
+.filtre_barre {
+    margin-top:4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+}
+
+.filtre i {
+    color: #0065FC;
+}
+
+.filtre:hover {
+    background: #DEEBFF;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    box-sizing: content-box; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 17px;
+    gap:6px;
+    padding: 5px 8px;
+}
+
+.barre_info {
+    display: flex;
+    flex-direction: row;
+    margin-top:4%;
+    gap:10px;
+}
+
+.barre_info p {
+    width: 412px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.fa-info {
+    font-size: 10px;
+    width:14px;
+    height:14px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    color:#0065FC;
+}
+
+/*=================================================================================================================================*/
+section {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 67% 100%;
+    margin-top: 4%;
+    height: min-content;
+}
+
+article {
+    margin-right: 5%;
+    margin-left:3%;
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+article h2 { 
+    margin-left: 7%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+article h3 {
+    margin-left: 7%;
+    margin-top:6%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: -10px;
+}
+
+.hebergement {
+    width: 150px;
+    height: 120px;
+    text-decoration: none;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    width:150px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.image figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -10px;
+    margin-left: 5%;
+}
+
+h4 {   
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #000000;
+    margin: 7px 0px 0px 0px;
+}
+
+p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 9px;
+    color: #000000;
+    margin: 0px;
+}
+
+.image img {
+    width: 99%;
+    height:70%;
+}
+
+.fa-star {
+    margin-top:2%;
+    font-size: 10px;
+}
+
+/*=======================================================+++===========================================================================*/
+
+
+aside {
+    width: 30%;
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+aside h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.titre_aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    gap:20%;
+}
+
+.titre_aside i {
+    color: #0065FC;
+}
+
+.a_cards2 {
+    width: 230px;
+    height: 105px;
+    margin-top: -10px;
+    margin-left: -6%;
+    text-decoration: none;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 230px;
+    height: 105px;
+}
+
+.populaire {
+    width: 230px;
+    height: 105px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.populaire img {
+    width:43%;
+    height: 104px;
+}
+
+.populaire1 h4 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+.stars {
+    display: inline-flex;
+    font-size: 3em;
+}
+
+.populaire figcaption {
+    margin-left: 4%;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+
+.grey {
+    color:#F2F2F2;
+}
+
+.populaire .stars {
+    margin-top: 55px;
+} 
+
+.populaire2 .stars {
+    margin-top: 42px;
+}
+
+/*============================================================================================================================================================*/
+
+#activite {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%; 
+}
+
+#activite h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+ 
+.cards3 {
+    display: flex;
+    flex-direction: row; 
+}
+
+.a_activite {
+    text-decoration: none;
+    margin-left: -4.3%;
+}
+
+.activite {
+    width: 75%;
+    height: 95%;
+    background: #FFFFFF;
+    border-radius:20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activite figcaption {
+    display: flex;
+    margin-left: 19px;
+}
+
+.activite img {
+    width: 100%;
+    height:90%;
+    border-radius:20px 20px 0px 0px;  
+}
+
+.activite h4 {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+/*=================================================================================================================================================================*/
+
+footer {
+    margin-top: 5%;
+    width: 100%;
+    height: 170%;
+    background: #F2F2F2;
+}
+
+footer h4 {
+font-size: 14px;
+margin-left: 37px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.aide {
+    display: flex;
+    flex-direction: row;
+    gap: 118px;
+    margin-left:30px;
+}
+
+.act {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*utiliser object fit (cadrage image)/ cherche internet pour voir ce que sa donne*/
+
+

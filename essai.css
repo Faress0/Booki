@@ -1,5 +1,15 @@
+@import url("Raleway-Italic-VariableFont_wght.ttf");
+
+body {
+    margin-left: 3%;
+}
+
 h1, h2, h3, h4 {
-    font-family: "Raleway-Italic-VariableFont_wght.ttf";
+    font-family: "Raleway";
+}
+
+a {
+    text-decoration: none;
 }
 
 nav img {
@@ -11,13 +21,13 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin:0% 4% 4% 3%;
+    margin:0% 4% 4% 0%;
 }
 
 #menu {
     display: flex;
     flex-direction: row;
-    margin-left: 65%;
+    margin-left: 70%;
 }
 
 #bleu, #noir { 
@@ -32,7 +42,7 @@ nav {
 }
 
 #bleu {
-    margin-right: 40%;
+    margin-left:-55%;
 }
 
 #bleu span:hover, #noir span:hover {
@@ -55,7 +65,6 @@ h1 {
 
 .lieu1 {
     margin-top:-3%;
-    margin-left: 3%;
     display: flex;
     flex-direction: column;
 }
@@ -80,7 +89,6 @@ aside h1 {
     display: flex;
     flex-direction: column;
     margin-top: 3%;
-    margin-left: 3%;
 }
 
 .marseille {
@@ -171,9 +179,9 @@ h3  {
     box-sizing: content-box; 
     font-family: 'Raleway';
     font-style: normal;
-    font-size: 17px;
+    font-size: 19px;
     gap:6px;
-    padding: 5px 8px;
+    padding: 9px 12px;
 }
 
 .barre_info {
@@ -210,18 +218,16 @@ section {
     flex-direction: row;
     grid-template-columns: 67% 100%;
     margin-top: 4%;
-    height: min-content;
 }
 
 article {
     margin-right: 5%;
-    margin-left:3%;
     background: #F2F2F2;
     border-radius: 20px;
 }
 
-article h2 { 
-    margin-left: 7%;
+article h2, aside h2 { 
+    margin-left: 7.3%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -232,14 +238,16 @@ article h2 {
 
 article h3 {
     margin-left: 7%;
-    margin-top:6%;
+    margin-top:2%;
+    margin-bottom: 5%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     color: #000000;
 }
+
+
 
 .cards {
     display: flex;
@@ -268,13 +276,13 @@ article h3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: -10px;
+    margin-top: -9px;
     margin-left: 5%;
 }
 
 h4 {   
     font-family: 'Raleway';
-    font-size: 12px;
+    font-size: 11px;
     color: #000000;
     margin: 7px 0px 0px 0px;
 }
@@ -284,20 +292,18 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 9px;
-    line-height: 9px;
     color: #000000;
     margin: 0px;
 }
 
 .image img {
-    width: 99%;
+    box-sizing: border-box;
+    border:solid 3px white;
+    width: 100%;
     height:70%;
+    border-radius: 20px 20px 0px 0px;
 }
 
-.fa-star {
-    margin-top:2%;
-    font-size: 10px;
-}
 
 /*=======================================================+++===========================================================================*/
 
@@ -309,11 +315,7 @@ aside {
 }
 
 aside h2 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #000000;
+    margin-left: 0%;
 }
 
 .titre_aside {
@@ -346,7 +348,7 @@ aside h2 {
 
 .populaire {
     width: 230px;
-    height: 105px;
+    height: 95px;
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
@@ -354,8 +356,11 @@ aside h2 {
 }
 
 .populaire img {
-    width:43%;
-    height: 104px;
+    width:40%;
+    height: 94px;
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    border:solid 3px white;
 }
 
 .populaire1 h4 {
@@ -367,7 +372,6 @@ aside h2 {
 
 .stars {
     display: inline-flex;
-    font-size: 3em;
 }
 
 .populaire figcaption {
@@ -376,6 +380,8 @@ aside h2 {
 
 .fa-star {
     color: #0065FC;
+    margin-top:2%;
+    font-size: 10px;
 }
 
 .grey {
@@ -383,11 +389,15 @@ aside h2 {
 }
 
 .populaire .stars {
-    margin-top: 55px;
+    margin-top: 32px;
 } 
 
 .populaire2 .stars {
-    margin-top: 42px;
+    margin-top: 32px;
+}
+
+.populaire3 .stars {
+    margin-top: 45px;
 }
 
 /*============================================================================================================================================================*/
@@ -396,7 +406,6 @@ aside h2 {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
-    margin-left: 2%; 
 }
 
 #activite h2 {
@@ -411,16 +420,20 @@ aside h2 {
 .cards3 {
     display: flex;
     flex-direction: row; 
+    margin-left:-5%;
+    gap:34px;
 }
 
 .a_activite {
     text-decoration: none;
-    margin-left: -4.3%;
+    width:200px;
+    height:300px;
+    margin-left:0.7%;
 }
 
 .activite {
-    width: 75%;
-    height: 95%;
+    width: 200px;
+    height: 300px;
     background: #FFFFFF;
     border-radius:20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -433,8 +446,8 @@ aside h2 {
 
 .activite img {
     width: 100%;
-    height:90%;
-    border-radius:20px 20px 0px 0px;  
+    height:90%; 
+    border-radius:20px 20px 0px 0px;
 }
 
 .activite h4 {
@@ -445,26 +458,27 @@ aside h2 {
 /*=================================================================================================================================================================*/
 
 footer {
-    margin-top: 5%;
-    width: 100%;
-    height: 170%;
+    margin-top: 6%;
+    width: 97%;
     background: #F2F2F2;
+    margin-bottom: -10px;
 }
 
 footer h4 {
-font-size: 14px;
-margin-left: 37px;
+    font-size: 16px;
+    margin-left: 37px;
 }
 
 footer li {
     list-style-type: none;
+    margin-top: 7px;
+    font-size: 14px;
 }
 
 .aide {
     display: flex;
     flex-direction: row;
-    gap: 118px;
-    margin-left:30px;
+    gap: 115px;
 }
 
 .act {
@@ -472,7 +486,322 @@ footer li {
     flex-direction: column;
 }
 
+.propos {
+    margin-left:18px;
+}
 
-/*utiliser object fit (cadrage image)/ cherche internet pour voir ce que sa donne*/
+
+@media screen and (min-width:1024px) {
+    .cards3 {
+        gap:44px;
+    }
+
+    .assistance {
+        margin-left: 25px;
+    }
+}
 
 
+@media screen and (min-width:1440px) {
+
+    body {
+        max-width:1400px;
+        margin-left: 3%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    nav img {
+        width: 81px;
+        height: 25px;
+    }
+
+    #bleu, #noir {
+        font-size: 20px;
+    }
+
+    #bleu span:hover, #noir span:hover {
+        border-top: solid #0065FC;
+        padding-top: 21px;
+    }
+
+    .lieu1 {
+        margin-top: -2%;
+    }
+
+    .rechercher {
+        margin-top: 2%;
+    }
+
+    .filtre {
+        padding:9px 22px;
+    }
+
+    .filtre_barre {
+        gap:50px;
+    }
+
+    .barre_info {
+        margin-top: 2%;
+    }
+
+    section {
+        margin-top: 2%;
+        grid-template-columns: 67% 100%;
+    }
+
+    article h3 {
+        margin-left:5%;
+        font-size: 24px;
+    }
+
+    .cards {
+        gap:25px;
+    }
+
+    .hebergement {
+        width: 246px;
+        height: 199px;
+    }
+
+    .image {
+        width: 246px;
+        height: 199px;
+    }
+
+    .cards2, .a_cards2, .populaire {
+        width:343px;
+        height: 144px;
+        margin-left: 13px;
+        gap:33px;
+    }
+
+    .populaire img {
+        margin-top: 0.5%;
+        height: 99%;
+        width: 40%;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .populaire figcaption {
+        margin-left: -4%;
+    }
+
+    .populaire figcaption .stars {
+        margin-top:60px;
+    } 
+    
+    .populaire3 figcaption .stars {
+        margin-top: 80px;
+    }
+
+    .fa-star {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .titre_aside {
+        gap:170px;
+    }
+
+    #activite {
+        margin-left: 1%;
+    }
+
+    #activite h2 {
+        margin-left: -1%;
+    }
+
+    .activite {
+        width:300px;
+        height:420px;
+    }
+
+    .cards3 {
+        gap:140px;
+    }
+
+    .activite h4 {
+        font-size:18px;
+    }
+
+    footer {
+        margin-top: 190px;
+        width: 97%;
+    }
+
+    footer h4 {
+        font-size:18px;
+    }
+
+    footer li {
+        font-size: 16px;
+    }
+
+    .aide {
+        margin-left: 10px;
+        gap: 225px;
+    }
+
+    section p {
+        margin-top:4px;
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width:1441px) {
+    body {
+        margin: auto;
+        max-width:1400px;
+    }
+}
+
+
+
+
+@media all and (max-width:768px) {
+
+    nav {
+        gap:-58%;
+    }
+
+    #menu {
+        margin-left: 65%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .filtre {
+        padding: 8px 8px;
+        font-size: 17px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width:97%;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    article {
+        margin-right: 0%;
+    }
+
+    .cards {
+        gap:80px;
+    }
+
+    .image {
+        width:195px;
+        height: 165px;
+    }
+
+    aside {
+        margin-top: 5%;
+        width:100%;
+        height: 190px;
+    }
+
+    .titre_aside {
+        margin-left:4.3%;
+        gap:70%;
+    }
+
+    .cards2 {
+        flex-direction: row;
+        gap:10px;
+    }
+
+    .populaire {
+        width: 200px;
+        height: 105px;
+    }
+
+    .populaire img {
+        height:105px;
+    }
+
+    .activite, .a_activite {
+        height: 237px;
+        width: 164px;
+        margin-left: 15px;
+    }
+
+    .activite img {
+        height:85%;
+    }
+
+    .marge figcaption h4 {
+        margin-right: 50px;
+    }
+
+    .activite h4 {
+        margin-top: 0px;
+    }
+
+    .activite figcaption {
+        margin-left:25px;
+    }
+
+    footer {
+        margin-top: 9%;
+    }
+
+    .cards3 {
+        gap:5px;
+    }
+
+    .aide {
+        gap:30px;
+    }
+}
+
+/*@media all and (max-width:465px) {
+
+    body {
+        margin-right: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav img {
+        width:120px;
+        height:40px;
+        margin-bottom: 60px;
+    }
+
+    #menu {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #bleu, #noir {
+        font-size:40px;
+    }
+
+    #bleu :hover, #noir :hover {
+
+    }
+
+    .lieu  {
+        display: flex;
+        justify-content: center;
+    }
+}

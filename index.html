@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="essai.css" rel="stylesheet" type="text/css">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="max-width=1440, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/b6f26fa58d.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
@@ -12,8 +12,8 @@
         <nav>
             <img src="image/Booki.png" alt="booki">
             <ul id="menu">
-                <li id="bleu"><span>Hébergements</span></li>
-                <li id="noir"><span>Activités</span></li>
+                <a href="#hebergement"><li id="bleu"><span>Hébergements</span></li></a>
+                <a href="#activites"><li id="noir"><span>Activités</span></li></a>
             </ul>
         </nav>
         <div class="lieu">
@@ -49,14 +49,14 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
-        </div><!--Mercredi 16 novembre 9h-->
+        </div>
         <section>
             <article>
                 <h2>Hébergements à Marseille</h2>
                 <div class="cards">
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/Rectangle 20.png" alt="Auberge la canebre">
+                            <img src="image/Rectangle 20.jpg" alt="Auberge la canebre">
                             <figcaption>
                                 <h4>Auberge la canebre</h4>
                                 <p>Nuit a partir de 25€</p>
@@ -70,9 +70,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/ractangle_3.png" alt="Hôtel du port">
+                            <img src="image/rectangle_3.jpg" alt="Hôtel du port">
                             <figcaption>
                                 <h4>Hôtel du port</4>
                                 <p>Nuit à partir de 52€</p>
@@ -86,9 +86,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/rectangle_1.png" alt="Hôtel les mouettes">
+                            <img src="image/rectangle_1.jpg" alt="Hôtel les mouettes">
                             <figcaption>
                                 <h4>Hôtel les mouettes</h4>
                                 <p>Nuit à partir de 76€</p>
@@ -102,9 +102,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/rectangle_2.png" alt="Hôtel de la mer">
+                            <img src="image/rectangle_2.jpg" alt="Hôtel de la mer">
                             <figcaption>
                                 <h4>Hôtel de la mer</h4>
                                 <p>Nuit à partir de 46€</p>
@@ -118,9 +118,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/rectangle_5.png" alt="Auberge le panier">
+                            <img src="image/rectangle_5.jpg" alt="Auberge le panier">
                             <figcaption>
                                 <h4>Auberge le panier</h4>
                                 <p>Nuit à partir de 23€</p>
@@ -134,9 +134,9 @@
                             </ficgaption>
                         </figure>
                     </a>
-                    <a href="#hebergement" class="hebergement">
+                    <a href="#" id="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/rectangle_6.png" alt="Hôtel chez Amina">
+                            <img src="image/rectangle_6.jpg" alt="Hôtel chez Amina">
                             <figcaption>
                                 <h4>Hôtel chez Amina</h4>
                                 <p>Nuit à partir de 96€</p>
@@ -149,21 +149,21 @@
                                 </div>
                             </figcaption>
                         </figure>
-                    </a><!--utiliser figure et figcaption-->
-                    <h3>Afficher plus</h3><!--finir encore indentation-->
+                    </a>
+                    <h3>Afficher plus</h3>
                 </div>
             </article>
             <aside>
                 <div class="titre_aside">
-                    <h2>Les plus populaires</h2><!--changer h2 (pas h1)-->
+                    <h2>Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
                 <div class="cards2">
-                    <a href="#cards2" class="a_cards2">
+                    <a href="#" id="a_cards2" class="a_cards2">
                         <figure class="populaire">
-                            <img src="image/aside1.png" alt="Hôtel le soleil du matin">
+                            <img src="image/aside1.jpg" alt="Hôtel le soleil du matin">
                             <figcaption>
-                                <h4>Hôtel le soleil du matin</h4>
+                                <h4>Hôtel le soleil du <br>matin</h4>
                                 <p>Nuit à partir de 128€</p>
                                 <div class="stars">
                                     <i class="fa-solid fa-star"></i>
@@ -175,11 +175,11 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#cards2" class="a_cards2">
-                        <figure class="populaire populaire2">
-                            <img src="image/aside2.png" alt="Chambres d'hôte au coeur de l'eau">
+                    <a href="#" id="a_cards2" class="a_cards2">
+                        <figure class="populaire">
+                            <img src="image/aside2.jpg" alt="Chambres d'hôte au coeur de l'eau">
                             <figcaption>
-                                <h4>Chambres d'hôte au coeur de l'eau</h4>
+                                <h4>Chambres d'hôte Au<br> coeur de l'eau</h4>
                                 <p>Nuit à partir de 71€</p>
                                 <div class="stars">
                                     <i class="fa-solid fa-star"></i>
@@ -191,9 +191,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#cards2" class="a_cards2">
-                        <figure class="populaire">
-                            <img src="image/aside3.png" alt="Hôtel bleu et blanc">
+                    <a href="#" id="a_cards2" class="a_cards2">
+                        <figure class="populaire populaire3">
+                            <img src="image/aside3.jpg" alt="Hôtel bleu et blanc">
                             <figcaption>
                                 <h4>Hôtel bleu et blanc</h4>
                                 <p>Nuit à partir de 68€</p>
@@ -213,33 +213,33 @@
         <section id="activite">
             <h2>Activités a Marseille</h2>
             <div class="cards3">
-                <a href="#activite" class="a_activite">
+                <a href="#" id="activites" class="a_activite">
                     <figure class="activite">
-                        <img src="image/act1.png" alt="Vieux port">
+                        <img src="image/act1.jpg" alt="Vieux port">
                         <figcaption>
                             <h4>Vieux-port</h4>
                         </figcaption>
                     </figure>
                 </a>
-                <a href="#activite" class="a_activite">
+                <a href="#" id="activites" class="a_activite">
                     <figure class="activite">
-                        <img src="image/act2.png" alt="Fort de promègues">
+                        <img src="image/act2.jpg" alt="Fort de promègues">
                         <figcaption>
                             <h4>Fort de promègues</h4>
                         <figcaption>
                     </figure>
                 </a>
-                <a href="#activite" class="a_activite">
+                <a href="#" id="activites" class="a_activite">
                     <figure class="activite">
-                        <img src="image/act3.png" alt="Parc national des Calanques">
+                        <img src="image/act3.jpg" alt="Parc national des Calanques">
                         <figcaption>
                             <h4>Parc national des Calanques</h4>
                         </figcaption>
                     </figure>
                 </a>
-                <a href="#activite" class="a_activite">
-                    <figure class="activite">
-                        <img src="image/act4.png" alt="Notre-Dame-de-la-Garde">
+                <a href="#" id="activites" class="a_activite">
+                    <figure class="activite marge">
+                        <img src="image/act4.jpg" alt="Notre-Dame-de-la-Garde">
                         <figcaption>
                             <h4>Notre-Dame-de-la-Garde</h4>
                         </figcaption>
@@ -247,9 +247,9 @@
                 </a>
             </div>
         </section>
-        <footer><!--chancher la class footer et laisser le footer qui fait tout-->
+        <footer>
             <div class="aide">
-                <div class="act">
+                <div class="act propos">
                     <h4>À propos</h4>
                     <ul>
                         <li>Fonctionnement du site</li>
@@ -264,7 +264,7 @@
                         <li>proposer votre hôtel</li>
                     </ul>
                 </div>
-                <div class="act">
+                <div class="act assistance">
                     <h4>Assistance</h4>
                     <ul>
                         <li>centre d'aide</li>
@@ -275,8 +275,3 @@
         </footer>
     </body>
 </html>
-<!--faire les bloc en pourcentage-->
-<!--changer le css pour 992px -->
-<!--mettre meme id pour utiliser la nav -->
-<!--rjt les balise p-->
-<!--rentrer le menu-->

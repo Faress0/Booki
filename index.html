@@ -3,18 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <link href="essai.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="Raleway-Italic-VariableFont_wght">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="max-width=1440, initial-scale=1.0">
+        <meta name="viewport" content="max-width=1400, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/b6f26fa58d.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
     <body>
         <nav>
             <img src="image/Booki.png" alt="booki">
-            <ul id="menu">
-                <a href="#hebergement"><li id="bleu"><span>Hébergements</span></li></a>
-                <a href="#activites"><li id="noir"><span>Activités</span></li></a>
-            </ul>
+            <div id="menu">
+                <a href="#hebergement" id="bleu"><span>Hébergements</span></a>
+                <a href="#activites" id="noir"><span>Activités</span></a>
+            </div>
         </nav>
         <div class="lieu">
             <div class="lieu1">
@@ -27,26 +28,28 @@
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <input type="search" class="rectangle2" placeholder="Marseille,France">
-                    <button class="buttonBleu" type="button"> <div class="rechercherBleu">Rechercher</div></button>
+                    <button class="buttonBleu" type="button"><i class="fa-solid fa-magnifying-glass"></i><span>Rechercher</span></button>
                 </div>
                 <div class="filtre_barre">
                     <h3>Filtres</h3>
-                    <div class="filtre">
-                        <i class="fa-solid fa-money-bill-wave"></i>Economique
-                    </div>
-                    <div class="filtre">
-                        <i class="fa-solid fa-person"></i>Familial
-                    </div>
-                    <div class="filtre">
-                        <i class="fa-solid fa-heart"></i>Romantique
-                    </div>
-                    <div class="filtre">
-                        <i class="fa-solid fa-dog"></i>Animaux Autorisés
+                    <div class="filtres">
+                        <div class="filtre">
+                            <i class="fa-solid fa-money-bill-wave"></i>Economique
+                        </div>
+                        <div class="filtre">
+                            <i class="fa-solid fa-person"></i>Familial
+                        </div>
+                        <div class="filtre">
+                            <i class="fa-solid fa-heart"></i>Romantique
+                        </div>
+                        <div class="filtre">
+                            <i class="fa-solid fa-dog"></i>Animaux Autorisés
+                        </div>
                     </div>
                 </div>
                 <div class="barre_info">
                         <i class="fa-solid fa-info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <p>Plus de 500 logements sont disponibles <br> dans cette ville</p>
                 </div>
             </div>
         </div>
@@ -54,9 +57,9 @@
             <article>
                 <h2>Hébergements à Marseille</h2>
                 <div class="cards">
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="hebergement" class="hebergement">
                         <figure class="image">
-                            <img src="image/Rectangle 20.jpg" alt="Auberge la canebre">
+                            <img src="image/Rectangle_20.jpg" alt="Auberge la canebre">
                             <figcaption>
                                 <h4>Auberge la canebre</h4>
                                 <p>Nuit a partir de 25€</p>
@@ -70,11 +73,11 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="#" class="hebergement">
                         <figure class="image">
                             <img src="image/rectangle_3.jpg" alt="Hôtel du port">
                             <figcaption>
-                                <h4>Hôtel du port</4>
+                                <h4>Hôtel du port</h4>
                                 <p>Nuit à partir de 52€</p>
                                     <div class="stars">
                                         <i class="fa-solid fa-star"></i>
@@ -86,7 +89,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="#" class="hebergement">
                         <figure class="image">
                             <img src="image/rectangle_1.jpg" alt="Hôtel les mouettes">
                             <figcaption>
@@ -102,7 +105,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="#" class="hebergement">
                         <figure class="image">
                             <img src="image/rectangle_2.jpg" alt="Hôtel de la mer">
                             <figcaption>
@@ -118,7 +121,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="#" class="hebergement">
                         <figure class="image">
                             <img src="image/rectangle_5.jpg" alt="Auberge le panier">
                             <figcaption>
@@ -131,10 +134,10 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star grey"></i>
                                 </div>
-                            </ficgaption>
+                            </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="hebergement" class="hebergement">
+                    <a href="#" id="#" class="hebergement">
                         <figure class="image">
                             <img src="image/rectangle_6.jpg" alt="Hôtel chez Amina">
                             <figcaption>
@@ -159,7 +162,7 @@
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
                 <div class="cards2">
-                    <a href="#" id="a_cards2" class="a_cards2">
+                    <a href="#" class="a_cards2">
                         <figure class="populaire">
                             <img src="image/aside1.jpg" alt="Hôtel le soleil du matin">
                             <figcaption>
@@ -175,8 +178,8 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="a_cards2" class="a_cards2">
-                        <figure class="populaire">
+                    <a href="#" class="a_cards2">
+                        <figure class="populaire populaire2">
                             <img src="image/aside2.jpg" alt="Chambres d'hôte au coeur de l'eau">
                             <figcaption>
                                 <h4>Chambres d'hôte Au<br> coeur de l'eau</h4>
@@ -213,23 +216,23 @@
         <section id="activite">
             <h2>Activités a Marseille</h2>
             <div class="cards3">
-                <a href="#" id="activites" class="a_activite">
-                    <figure class="activite">
+                <a href="#" class="a_activite">
+                    <figure class="activite espace">
                         <img src="image/act1.jpg" alt="Vieux port">
                         <figcaption>
                             <h4>Vieux-port</h4>
                         </figcaption>
                     </figure>
                 </a>
-                <a href="#" id="activites" class="a_activite">
-                    <figure class="activite">
+                <a href="#" class="a_activite">
+                    <figure class="activite espace">
                         <img src="image/act2.jpg" alt="Fort de promègues">
                         <figcaption>
                             <h4>Fort de promègues</h4>
-                        <figcaption>
+                        </figcaption>
                     </figure>
                 </a>
-                <a href="#" id="activites" class="a_activite">
+                <a href="#" class="a_activite">
                     <figure class="activite">
                         <img src="image/act3.jpg" alt="Parc national des Calanques">
                         <figcaption>
